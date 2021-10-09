@@ -55,7 +55,12 @@ const Link = styled.a`
   color: inherit;
 `;
 
-const Wrapper = styled.article``;
+
+
+const Wrapper = styled.article`
+  inline-size: 340px;
+  block-size: 312px;
+`;
 
 const ImageWrapper = styled.div`
   position: relative;
@@ -65,6 +70,8 @@ const Image = styled.img``;
 
 const Row = styled.div`
   font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
 `;
 
 const Name = styled.h3`

@@ -66,9 +66,15 @@ table {
   isolation: isolate;
 }
 
+img{
+  width: 100%;
+}
+
 html, body, #root {
   height: 100%;
 }
 `;
+
+
 
 export default GlobalStyles;
